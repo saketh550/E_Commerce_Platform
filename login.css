@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 1%;
+}
+.header{
+    border: 1px solid;
+    height: 60px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.mini{
+    border: 1px solid;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+}
+.middle{
+    border: 1px solid;
+    height: 350px;
+    width: 510px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+}
+.footer{
+    border: 1px solid;
+    height: 60px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+   
+    font-size: 20px;
+    
+}
+
+.foruser{
+    height: 20px;
+    width: 170px;
+    margin-top: 35px;
+   
+}
+.forpass{
+    height: 20px;
+    width: 170px;
+    margin-left: 10px;
+      
+}
+.forlogin{
+    height: 40px;
+    width: 70px;
+    margin-left: 155px;
+}
+.forsignup{
+    text-align: center;
+}
+.forForgotpass{
+    text-align: center;
+}
+.forSignUp{
+    border: 1px solid;
+    height: 450px;
+    width: 490px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    list-style: none;
+}
+

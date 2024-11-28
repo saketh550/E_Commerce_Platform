@@ -1,0 +1,43 @@
+.forSignUp{
+    border: 1px solid;
+    height: 410px;
+    width: 560px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    
+}
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+.forUser{
+    height: 20px;
+    margin-top: 30px;
+}
+.forPass{
+    height: 20px;
+    
+}
+.forConfirm{
+    height: 20px;
+}
+.forMobile{
+    height: 20px;
+    
+}
+.forEmail{
+    height: 20px;
+    
+}
+.forSubmit{
+    height: 30px;
+    width: 70px;
+    margin-left: 170px;
+}
+
+.forSubmit:hover{
+    background-color: green;
+}
+

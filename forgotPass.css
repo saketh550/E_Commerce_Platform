@@ -1,0 +1,26 @@
+.main-password{
+    border: 1px solid;
+    height: 200px;
+    width: 450px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+li{
+    padding-top: 10px;
+    padding-right: 110px; 
+    list-style: none;
+}
+.forUser{
+    height: 20px;
+    width: 150px;
+}
+.button{
+    position: relative;
+    right: 45px; 
+    height: 25px;
+    width: 75px;
+    background-color: lightgreen;
+    top: 30px;
+}

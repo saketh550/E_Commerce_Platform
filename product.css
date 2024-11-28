@@ -1,0 +1,41 @@
+.main-box{
+    display: grid;
+    grid-template-columns: 350px 850px;
+    border: 1px solid;
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.first{
+    border: 1px solid;
+    width: 300px;
+    height: 900px;
+    font-size: x-large;
+}
+.first div{
+    border: 1px solid;
+    padding: 15px;
+}
+
+.second{
+    display :grid;
+    grid-template-columns: 200px 200px 0px ;
+    gap: 45px;
+    
+}
+.second .innerProduct {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    font-size: large;
+}
+.view{
+    position: relative;
+    top: 205px;
+    text-decoration: underline;
+    font-size: x-large
+}

@@ -1,0 +1,184 @@
+.main-box {
+    display: grid;
+    grid-template-columns: auto 850px;
+    border: 1px solid;
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.first {
+    border: 1px solid;
+    width: 300px;
+    height: 900px;
+    font-size: x-large;
+}
+
+.first div {
+    border: 1px solid;
+    padding: 15px;
+}
+
+.second {
+    padding: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto auto; /* 3 columns for products */
+    gap: 20px; /* Space between items */
+    margin-top: 30px;
+}
+
+/* .innerProduct {
+    border: 1px solid;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+} */
+
+.product-container-two {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 20px; /* Space between P1, P2, P3, P4 */
+    /* height: 50%; Full height for vertical centering */
+    margin-top: 8rem;
+}
+
+.small {
+    border: 1px solid;
+    height: 40px;
+    width: 45px;
+    text-align: center;
+}
+
+.small-no-border {
+    height: 40px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+
+/* .innerProduct img{
+    width: 100%;
+    height: 80%;
+} */
+
+
+.innerProduct {
+    border: 1px solid;
+    height: 300px; /* Increased height to give more space for the image */
+    text-align: center;
+    font-size: large;
+    display: flex;        /* Use flexbox to center the content */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;     /* Ensures images don't overflow outside of the container */
+}
+.innerProduct img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; Ensures images fill the container while cropping overflow */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.main-box{
+    display: grid;
+    grid-template-columns: auto 850px;
+    border: 1px solid;
+    height: 900px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.first{
+    border: 1px solid; 
+    width: 300px;
+    height: 900px;
+    font-size: x-large;
+}
+.first div{
+    border: 1px solid;
+    padding: 15px;
+}
+
+.second{
+    display :grid;
+    grid-template-columns: 200px 200px 0px ;
+    gap: 10px 80px;
+
+    
+}
+.second .innerProduct {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    font-size: large;
+}
+
+.small_1{
+    border: 1px solid;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    left: 230px;
+}
+.small_2{
+    border: 1px solid;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    left: 30px;
+}
+.small_3{
+    border: 1px solid;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    left: -170px;
+}
+.dot{
+    font-size: xx-large;
+    position: relative;
+    bottom: 115px;
+    left: 450px;
+}
+ */
